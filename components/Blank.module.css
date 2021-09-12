@@ -1,0 +1,12 @@
+.blank {
+  color: #AAAAAA;
+  text-decoration: underline;
+}
+
+.blank::before {
+  content: '['
+}
+
+.blank::after {
+  content: ']'
+}
