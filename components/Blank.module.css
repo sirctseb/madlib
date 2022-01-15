@@ -1,12 +1,12 @@
 .blank {
-  color: #AAAAAA;
+  color: #CCC;
   text-decoration: underline;
 }
 
 .blank::before {
-  content: '['
+  content: '[';
 }
 
 .blank::after {
-  content: ']'
+  content: ']';
 }

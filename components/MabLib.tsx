@@ -22,7 +22,7 @@ export const MadLib: React.FC<MadLibProps> = ({ text, title }) => {
               if (index % 2 === 0) {
                 return token;
               }
-              return <Blank key={index} label={token} />
+              return <Blank key={token+index} label={token} />
             })
           }
           <br />
